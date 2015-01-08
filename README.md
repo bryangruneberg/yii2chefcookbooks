@@ -1,5 +1,4 @@
-Yii2init
-=========
+Yii2 Chef Cookbooks
+=============
 
-Yii2 init script to swith an application init
-
+Cookbooks for doing yii2 things on opsworks
