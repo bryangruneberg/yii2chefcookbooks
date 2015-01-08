@@ -1,5 +1,5 @@
 Yii2init
 =========
 
-Yii2 init script to swith an application init
+Yii2 scripts to install and update composer
 
