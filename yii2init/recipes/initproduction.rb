@@ -13,7 +13,7 @@ node[:deploy].each do |application, deploy|
     interpreter "bash"
     cwd "#{deploy[:deploy_to]}/current"
     code <<-EOH
-    php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta4"
+    composer global require "fxp/composer-asset-plugin:1.0.0-beta4"
     EOH
   end
 end
